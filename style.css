@@ -7,7 +7,7 @@ body {
     color: #333;
 }
 header{
-    background-color: #9bdb34;
+    background-color: #34a6db;
     color: black;
     padding: 20px 0;
     text-align: center;
@@ -17,6 +17,7 @@ header{
 nav ul {
     list-style-type: none;
     padding: 0;
+    
 }
 
 nav ul li {
@@ -55,5 +56,41 @@ footer {
 }
 .img2-container{
     text-align: center;
-    gap: 30px;
+    
+}
+.semester-conatiner{
+    background-color: rgb(189, 210, 193);
+   
+}
+.h2-conatiner{
+    margin-top: 30px;
+    text-align: center;
+    padding: 10px;
+}
+.rana{
+    background-color:#34a6db;
+    width: 200px;
+    padding: 10px;
+    margin-left: 30px;
+    border-radius: 10px;
+    text-align: center;
+ margin-left: 30px;
+}
+.all-cr{
+    display: flex;
+   margin-left: 70px;
+  
+}
+.crRana{
+    display: flex;
+   margin-left: 450px;
+    gap: 20px;
+    margin-top: 30px;
+    background-color: rgb(194, 189, 189);
+    width: 400px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 10px;
 }
